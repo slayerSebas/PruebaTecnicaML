@@ -21,9 +21,9 @@ Adicionalmente, se implemento un CRUD basico para la gestión de productos. esta
 
 **Tecnologias Utilizadas**
 
-  -**Java**: El lenguaje principal para el desarrollo de la aplicación.
-  -**Spark**: Framework utilizado para simplificar la creación y configuración de servicios HTTP.
-  -**Maven**: Herramienta de gestión de proyectos y dependencias.
+  - **Java**: El lenguaje principal para el desarrollo de la aplicación.
+  - **Spark**: Framework utilizado para simplificar la creación y configuración de servicios HTTP.
+  - **Maven**: Herramienta de gestión de proyectos y dependencias.
 
 **Estructura del proyecto**
 
@@ -36,4 +36,8 @@ El proyecto está organizado en varios paquetes(capas), donde cada uno tiene un 
 
 *los controladores se integran en una solo controlador llamado **MainController** donde tambien se define el Puerto por el cual la aplicación escuchará las peticiones HTTP.*
 
-La implementación del sistema de descuentos se basa en el patrón de diseño Strategy, lo que permite definir diferentes estrategias de descuento y aplicarlas de forma intercambiable sin necesidad de modificar la lógica del carrito de compras.
+**Patrón de Diseño**
+
+La aplicación implementa el Patrón de **strategy** para gestionar los dos tipos de descuentos implementados en la aplicación. Este patrón permite definir una familia de algoritmos de descuento, encapsular cada uno y hacerlos intercambiables. Así, se pueden aplicar diferentes estrategias de descuento sin modificar el código ya implementado.
+
+Adicionalmente, la aplicación está construida siguiendo principios de programación orientada a objetos (POO), lo que permite una mayor modularidad y reutilización del código. Se han aplicado principios como la abstracción, la encapsulación para crear clases que representan entidades como productos, carritos de compras y cupones, promoviendo así un diseño limpio.
