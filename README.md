@@ -56,6 +56,19 @@ En esta sección, se describen actividades de vital importancia para mi que me p
   
 ![Diagrama en blanco](https://github.com/user-attachments/assets/5d769f73-c15d-40c6-a30b-88d163afc4f1)
 
+### Instrucciones para Ejecutar la Aplicación
+
+1. **Prerequisitos**:
+   - Asegúrate de tener instalados los siguientes programas:
+     - **Java JDK 11 o superior**.
+     - **Maven**: Gestor de paquetes.
+     - **eclipse**:(Opcional) Este es el compilador raiz con el cual se desarrollo la aplicación. si esta disponible, solo es importar el proyecto y correr ***MainController*** para levantar la aplicacion.
+       
+2. **Clonar el Repositorio**:
+   ```bash
+   git clone https://github.com/tu_usuario/nombre_repositorio.git
+   cd nombre_repositorio
+   
 ## Agradecimientos
 
 Agradezco la oportunidad de presentar esta prueba. Este proceso me ha permitido afrontar nuevos desafios y poder demostrar mis habilidades y conocimientos en el desarrollo de la aplicación.
