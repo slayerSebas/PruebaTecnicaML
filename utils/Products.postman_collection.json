@@ -51,8 +51,8 @@
 					],
 					"query": [
 						{
-							"key": "name",
-							"value": "sebastian",
+							"key": "",
+							"value": "",
 							"disabled": true
 						}
 					]

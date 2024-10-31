@@ -147,13 +147,6 @@
 						"shoppingCart",
 						"{shoppingCartId}",
 						"applyPercentageDiscount"
-					],
-					"query": [
-						{
-							"key": "",
-							"value": null,
-							"disabled": true
-						}
 					]
 				}
 			},
@@ -191,13 +184,6 @@
 						"shoppingCart",
 						"{shoppingCartId}",
 						"applyCouponDiscount"
-					],
-					"query": [
-						{
-							"key": "",
-							"value": null,
-							"disabled": true
-						}
 					]
 				}
 			},
