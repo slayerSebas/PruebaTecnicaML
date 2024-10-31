@@ -95,16 +95,19 @@ En esta sección, se describen actividades de vital importancia para mi que me p
        http://localhost:8000/product/{productId} // PUT -> Actualizar un producto -- el objeto se recibe por el body() - Raw. -- consultar o crear un producto para tener un Id valido y poder probar este endPoint
        http://localhost:8000/product/{productId} // DELETE -> eiminar un producto -- consultar o crear un producto para tener un Id valido y poder probar este endPoint
 
-    6.2 **EndPoints Carrito de compras**
-     ```bash
-       http://localhost:8000/shoppingCart // GET -> listar el carrito de compras.
-       http://localhost:8000/shoppingCart/product // POST -> agrega un producto al carrito de compras -- el objeto se recibe por el body() - Raw.
-       http://localhost:8000/shoppingCart/clear // DELETE -> vacia el carrito de compras
-       http://localhost:8000/shoppingCart/product/{productId} // DELETE -> elimina un producto del carrito de compras a partir de su Id.
-       http://localhost:8000/shoppingCart/{shoppingCartId}/applyPercentageDiscount // POST -> aplica un descuento de tipo porcentaje a todos los productos del carrito de compras -> se valida un Id para poder realizar la operación.
-       http://localhost:8000/shoppingCart/{shoppingCartId}/applyCouponDiscount // POST -> aplica un descuento de tipo cupon al total del carrito de compras -> se valida un Id para poder realizar la operación.
+  
+  6.2 **EndPoints Carrito de compras**
+   ```bash
+         http://localhost:8000/shoppingCart // GET -> listar el carrito de compras.
+         http://localhost:8000/shoppingCart/product // POST -> agrega un producto al carrito de compras -- el objeto se recibe por el body() - Raw.
+         http://localhost:8000/shoppingCart/clear // DELETE -> vacia el carrito de compras
+         http://localhost:8000/shoppingCart/product/{productId} // DELETE -> elimina un producto del carrito de compras a partir de su Id.
+         http://localhost:8000/shoppingCart/{shoppingCartId}/applyPercentageDiscount // POST -> aplica un descuento de tipo porcentaje a todos los productos del carrito de compras -> se valida un Id para poder realizar la operación.
+         http://localhost:8000/shoppingCart/{shoppingCartId}/applyCouponDiscount // POST -> aplica un descuento de tipo cupon al total del carrito de compras -> se valida un Id para poder realizar la operación.
+    
       
-     Las estructuras previamente mencionadas las encontraran en la carpeta utils del proyecto.
+
+Las estructuras previamente mencionadas las encontraran en la carpeta utils del proyecto.
      
 ## Agradecimientos
 
