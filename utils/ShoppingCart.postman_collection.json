@@ -10,7 +10,18 @@
 			"name": "getShoppingCart",
 			"request": {
 				"method": "GET",
-				"header": []
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8000/shoppingCart",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8000",
+					"path": [
+						"shoppingCart"
+					]
+				}
 			},
 			"response": []
 		},
@@ -18,7 +29,28 @@
 			"name": "addProductShoppingCart",
 			"request": {
 				"method": "POST",
-				"header": []
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n        \"id\": \"885b7689-c0fa-4a7b-8e0d-cd9c9898373a\",\r\n        \"name\": \"Product2\",\r\n        \"price\": 10,\r\n        \"category\": \"tecnology\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8000/shoppingCart/product",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8000",
+					"path": [
+						"shoppingCart",
+						"product"
+					]
+				}
 			},
 			"response": []
 		},
@@ -26,7 +58,19 @@
 			"name": "calculateShoppingCartTotal",
 			"request": {
 				"method": "GET",
-				"header": []
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8000/shoppingCart/total",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8000",
+					"path": [
+						"shoppingCart",
+						"total"
+					]
+				}
 			},
 			"response": []
 		},
@@ -56,7 +100,7 @@
 				"method": "DELETE",
 				"header": [],
 				"url": {
-					"raw": "http://localhost:8000/shoppingCart/clear",
+					"raw": "http://localhost:8000/shoppingCart/product/{productId}",
 					"protocol": "http",
 					"host": [
 						"localhost"
@@ -64,7 +108,8 @@
 					"port": "8000",
 					"path": [
 						"shoppingCart",
-						"clear"
+						"product",
+						"{productId}"
 					]
 				}
 			},
@@ -84,7 +129,7 @@
 				],
 				"body": {
 					"mode": "raw",
-					"raw": "{\r\n    \"discount\": 20\r\n}",
+					"raw": "{\r\n    \"discount\": 50\r\n}",
 					"options": {
 						"raw": {
 							"language": "json"
@@ -92,7 +137,7 @@
 					}
 				},
 				"url": {
-					"raw": "http://localhost:8000/shoppingCart/be2c614a-1d86-4f41-b9de-ba185deb541b/applyPercentageDiscount",
+					"raw": "http://localhost:8000/shoppingCart/{shoppingCartId}/applyPercentageDiscount",
 					"protocol": "http",
 					"host": [
 						"localhost"
@@ -100,7 +145,7 @@
 					"port": "8000",
 					"path": [
 						"shoppingCart",
-						"be2c614a-1d86-4f41-b9de-ba185deb541b",
+						"{shoppingCartId}",
 						"applyPercentageDiscount"
 					],
 					"query": [
@@ -128,7 +173,7 @@
 				],
 				"body": {
 					"mode": "raw",
-					"raw": "{\r\n    \"discount\": 20\r\n}",
+					"raw": "{\r\n    \"name\": \"OFF10\",\r\n    \"value\": \"10\"\r\n}",
 					"options": {
 						"raw": {
 							"language": "json"
@@ -136,7 +181,7 @@
 					}
 				},
 				"url": {
-					"raw": "http://localhost:8000/shoppingCart/be2c614a-1d86-4f41-b9de-ba185deb541b/applyPercentageDiscount",
+					"raw": "http://localhost:8000/shoppingCart/{shoppingCartId}/applyCouponDiscount",
 					"protocol": "http",
 					"host": [
 						"localhost"
@@ -144,8 +189,8 @@
 					"port": "8000",
 					"path": [
 						"shoppingCart",
-						"be2c614a-1d86-4f41-b9de-ba185deb541b",
-						"applyPercentageDiscount"
+						"{shoppingCartId}",
+						"applyCouponDiscount"
 					],
 					"query": [
 						{
