@@ -18,6 +18,15 @@ Adicionalmente, se implemento un CRUD basico para la gestión de productos. esta
   - **Ver Producto**: Permite visualizar información de productos existente a partir de un **productID**.
     
 
+# Estructura del proyecto
 
+El proyecto está organizado en varios paquetes(capas), donde cada uno tiene un propósito específico:
+
+  - **Domain**: Contiene las clases de modelo que representan los objetos del dominio, como *Product*, *ShoppingCart*, *Coupon* y *ShoppingCartResponse*.
+  - **Service**: Implementa la lógica de negocio, gestionando las interacciones entre el *controlador* y el *repositorio*.
+  - **Repository**: Se encarga de la persistencia de datos, proporcionando métodos para interactuar los datos existentes.
+  - **Controller**: Maneja las solicitudes HTTP y delega las operaciones a los servicios correspondientes.
+
+*los controladores se integran en una solo controlador llamado **MainController** donde tambien se define el Puerto por el cual la aplicación escuchará las peticiones HTTP.*
 
 La implementación del sistema de descuentos se basa en el patrón de diseño Strategy, lo que permite definir diferentes estrategias de descuento y aplicarlas de forma intercambiable sin necesidad de modificar la lógica del carrito de compras.
