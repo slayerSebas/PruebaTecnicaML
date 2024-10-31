@@ -43,3 +43,19 @@ La aplicación implementa el Patrón de **strategy** para gestionar los dos tipo
 Adicionalmente, la aplicación está construida siguiendo principios de programación orientada a objetos (POO), lo que permite una mayor modularidad y reutilización del código. Se han aplicado principios como la abstracción, la encapsulación para crear clases que representan entidades como productos, carritos de compras y cupones, promoviendo así un diseño limpio.
 
 # Generalidades del Desarrollo de la aplicación
+
+En esta sección, se describen actividades de vital importancia para mi que me permitieron estructurar y definir como abordaria los desafíos presentados en la prueba.
+
+### Actividades Desarrolladas
+
+**Investigación sobre Patrones de Diseño:**
+  Se Realizo un estudio detallado sobre varios patrones de diseño, centrándome en el patrón Strategy, ya que este permite una gran flexibilidad y permite la separación de responsablidades lo cual permitio implementar la lógica de los dos tipos de descuento solicitados.
+  
+**Generación de Recurso Grafico
+  Antes de iniciar la solución requerida, se tomo el tiempo para estructurar mis entidades y el comportamiento que estas tendrian en mi aplicacion. para ello desarrollo un pequeño esquema de diagrama de clase UML que me permitio definir a la hora de la aplicacion las propiedades, metodos y caracteristicas que tendrian mis entidades dentro de mi aplicacion
+  
+![Diagrama en blanco](https://github.com/user-attachments/assets/5d769f73-c15d-40c6-a30b-88d163afc4f1)
+
+
+
+
