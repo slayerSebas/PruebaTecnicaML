@@ -51,10 +51,14 @@ En esta sección, se describen actividades de vital importancia para mi que me p
 **Investigación sobre Patrones de Diseño:**
   Se Realizo un estudio detallado sobre varios patrones de diseño, centrándome en el patrón Strategy, ya que este permite una gran flexibilidad y permite la separación de responsablidades lo cual permitio implementar la lógica de los dos tipos de descuento solicitados.
   
-**Generación de Recurso Grafico
-  Antes de iniciar la solución requerida, se tomo el tiempo para estructurar mis entidades y el comportamiento que estas tendrian en mi aplicacion. para ello desarrollo un pequeño esquema de diagrama de clase UML que me permitio definir a la hora de la aplicacion las propiedades, metodos y caracteristicas que tendrian mis entidades dentro de mi aplicacion
+**Generación de Recurso Grafico:**
+  Antes de iniciar la solución requerida, se tomo el tiempo para estructurar mis entidades y el comportamiento que estas tendrian en mi aplicacion. para ello desarrollo un pequeño esquema de diagrama de clase UML que me permitio definir a la hora de la aplicacion las propiedades, metodos y      caracteristicas que tendrian mis entidades dentro de mi aplicacion.
   
 ![Diagrama en blanco](https://github.com/user-attachments/assets/5d769f73-c15d-40c6-a30b-88d163afc4f1)
+
+## Agradecimientos
+
+Agradezco la oportunidad de presentar esta prueba. Este proceso me ha permitido afrontar nuevos desafios y poder demostrar mis habilidades y conocimientos en el desarrollo de la aplicación.
 
 
 
