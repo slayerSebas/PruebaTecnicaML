@@ -66,9 +66,22 @@ En esta sección, se describen actividades de vital importancia para mi que me p
        
 2. **Clonar el Repositorio**:
    ```bash
-   git clone https://github.com/tu_usuario/nombre_repositorio.git
-   cd nombre_repositorio
-   
+   git clone https://github.com/slayerSebas/PruebaTecnicaML.git
+   cd PruebaTecnicaML
+
+3. **Compilar el proyecto**:
+   Abre una terminal en el directorio del proyecto y ejecuta el siguiente comando para compilar el proyecto:
+     ```bash
+   mvn clean install
+4. **Ejecutar la aplicación**:
+  Una vez que la compilación se haya completado sin errores, puedes ejecutar la aplicación con el siguiente comando:
+    ```bash
+   mvn exec:java -Dexec.mainClass="pruebaTecnica.controller.MainController"
+5. **Acceder a la aplicación**:
+
+   - La aplicación se ejecutará en el puerto **8000** por defecto. para acceder a los endPoints de la aplicación se recomienda el uso de herramientas como Postman.
+   - adicionalmente, en el repositorio encontraran los endPoint ya configurados para pruebas.
+  
 ## Agradecimientos
 
 Agradezco la oportunidad de presentar esta prueba. Este proceso me ha permitido afrontar nuevos desafios y poder demostrar mis habilidades y conocimientos en el desarrollo de la aplicación.
