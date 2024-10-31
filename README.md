@@ -81,7 +81,20 @@ En esta sección, se describen actividades de vital importancia para mi que me p
 
    - La aplicación se ejecutará en el puerto **8000** por defecto. para acceder a los endPoints de la aplicación se recomienda el uso de herramientas como Postman.
    - adicionalmente, en el repositorio encontraran los endPoint ya configurados para pruebas.
-  
+     
+6. **Insumo para pruebas**
+
+   Si se emplea la herramienta **Postman**,En la carpeta de utils encontraran dos archivos .json con las configuraciones necesarias para probar la aplicacion. solo es importarlos directamente en la herramienta.
+
+   **EndPoints de pruebas configurados**
+
+   6.1 **EndPoints Producto**
+     ```bash
+       http://localhost:8000/product // GET -> listar todos los productos disponibles.
+       http://localhost:8000/product // POST -> crear un producto nuevo -> el objeto se recibe por el body().
+       http://localhost:8000/product/{productId} // PUT -> Actualizar un producto -- consultar o crear un producto para tener un Id valido y poder probar este endPoint
+       http://localhost:8000/product/{productId} // DELETE -> eiminar un producto -- consultar o crear un producto para tener un Id valido y poder probar este endPoint
+     
 ## Agradecimientos
 
 Agradezco la oportunidad de presentar esta prueba. Este proceso me ha permitido afrontar nuevos desafios y poder demostrar mis habilidades y conocimientos en el desarrollo de la aplicación.
