@@ -8,12 +8,16 @@ Este proyecto es una aplicación de backend que permite la gestión de un carrit
 - **Descuentos por porcentaje**: Permite aplicar un porcentaje de descuento sobre el los productos del carrito de compras
 - **Descuentos por cupon**: Permite aplicar un descuento fijo al total del carrito de compras siempre y cuando el cupón sea valido. (*Se considera un cupón valido cuando tiene atributos de nombre y valor*)
 
-Tambien, permite la eliminacion o adicion de productos al carrito de compras y el calculo del valor total del carrito de compras. 
+Tambien, permite la eliminación y adición de productos al carrito de compras y el calculo del valor total del carrito de compras. 
 
 Adicionalmente, se implemento un CRUD basico para la gestión de productos. esta gestión permite:
+
   - **Crear Producto**: Permite adicionar nuevos productos al listado de productos actual.
   - **Actualizar Producto**: Permite actualizar productos existente a partir de un **productID**.
   - **Eliminar Producto**: Permite eliminar productos existente a partir de un **productID**.
   - **Ver Producto**: Permite visualizar información de productos existente a partir de un **productID**.
     
+
+
+
 La implementación del sistema de descuentos se basa en el patrón de diseño Strategy, lo que permite definir diferentes estrategias de descuento y aplicarlas de forma intercambiable sin necesidad de modificar la lógica del carrito de compras.
