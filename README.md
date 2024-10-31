@@ -17,8 +17,15 @@ Adicionalmente, se implemento un CRUD basico para la gestión de productos. esta
   - **Eliminar Producto**: Permite eliminar productos existente a partir de un **productID**.
   - **Ver Producto**: Permite visualizar información de productos existente a partir de un **productID**.
     
+# Infrastructura
 
-# Estructura del proyecto
+**Tecnologias Utilizadas**
+
+  -**Java**: El lenguaje principal para el desarrollo de la aplicación.
+  -**Spark**: Framework utilizado para simplificar la creación y configuración de servicios HTTP.
+  -**Maven**: Herramienta de gestión de proyectos y dependencias.
+
+**Estructura del proyecto**
 
 El proyecto está organizado en varios paquetes(capas), donde cada uno tiene un propósito específico:
 
