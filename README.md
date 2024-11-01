@@ -23,7 +23,7 @@ Adicionalmente, se implemento un CRUD basico para la gestión de productos. esta
 
   - **Java**: El lenguaje principal para el desarrollo de la aplicación.
   - **Spark**: Framework utilizado para simplificar la creación y configuración de servicios HTTP.
-  - **Maven**: Herramienta de gestión de proyectos y dependencias.
+  - **Maven (3.9.9)**: Herramienta de gestión de proyectos y dependencias.
 
 ### Estructura del proyecto
 
