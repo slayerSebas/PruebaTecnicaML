@@ -62,7 +62,7 @@ En esta sección, se describen actividades de vital importancia para mi que me p
 
 1. **Prerequisitos**:
    - Asegúrate de tener instalados los siguientes programas:
-     - **Java JDK 11 o superior**.
+     - **Java (JDK 22 o superior)**.
      - **Maven**: Gestor de paquetes.
      - **eclipse**:(Opcional) Este es el compilador raiz con el cual se desarrollo la aplicación. si esta disponible, solo es importar el proyecto y correr ***MainController*** para levantar la aplicacion.
        
