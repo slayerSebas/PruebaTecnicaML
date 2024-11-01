@@ -65,7 +65,9 @@ En esta sección, se describen actividades de vital importancia para mi que me p
      - **Java (JDK 22 o superior)**.
      - **Maven**: Gestor de paquetes.
      - **eclipse**:(Opcional) Este es el compilador raiz con el cual se desarrollo la aplicación. si esta disponible, solo es importar el proyecto y correr ***MainController*** para levantar la aplicacion.
-       
+
+  ***si se desea compilar y correr la aplicacion desde una terminal. se recomienda usar cmd.***
+  
 2. **Clonar el Repositorio**:
    ```bash
    git clone https://github.com/slayerSebas/PruebaTecnicaML.git
@@ -74,7 +76,8 @@ En esta sección, se describen actividades de vital importancia para mi que me p
 3. **Compilar el proyecto**:
    Abre una terminal en el directorio del proyecto y ejecuta el siguiente comando para compilar el proyecto:
      ```bash
-   mvn clean install
+      mvn clean install
+      mvn compile
 4. **Ejecutar la aplicación**:
   Una vez que la compilación se haya completado sin errores, puedes ejecutar la aplicación con el siguiente comando:
     ```bash
